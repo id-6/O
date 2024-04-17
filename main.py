@@ -12,7 +12,7 @@ import threading
 api_id = 18421930
 api_hash = "9cf3a6feb6dfcc7c02c69eb2c286830e"
 
-bot = Client("isici", api_id, api_hash, bot_token="5961331483:AAFw3LwuqOoPEXvrO-ImVdeTb-kEkenGrHk")
+bot = Client("isici", api_id, api_hash, bot_token="5961331483:AAEH1Terp8kjpZkIr3_Hwfu5HbepC2o1CNE")
 
 ss = "AgEZGKoAVVND8o6uN2uYxAby8nHCwQ8EQN9WOPVBEuzgXHpN3mMQvnK-vSckRDR6r9xw1aDjjO8vbgaFutCqABekdvQRBUnPy9DkQ2xcLw7b7gVoev-oJxYLhFUD1mza_X4ZgZxjNVqjM1ucaOJZo__RBech0Q1wSvmuLIxVpvqdrEH_n_SGtPQ8tIrXPDzwkATR2ZiiKTKKhs7p0E9A3v8hI4xv4uhQ5UH5vecKTx4K8fMm_K3ARPSJA0uiM9psGcSR2h-mLiJeThwsHmA6brUs0_5jzXgU19SMSsCC1tdx-zPbMVsY2eMG86VlRrvHeI1ExTj_HYB9_kKfySvu2x1QGW-5UgAAAAFcK_zzAA"
 if ss is not None:
