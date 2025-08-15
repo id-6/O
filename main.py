@@ -65,12 +65,12 @@ def send_start(client: pyrogram.client.Client, message: pyrogram.types.messages_
         print(language_code)
         welcome_message = f"**👋 مرحبًا {message.from_user.mention},\nأنا بوت حفظ المنشورات من القنوات المقيدة. ارسل لي رابط المنشور 📎\n\n اذا كان القناة او المجموعة خاصة ف عليك ارسال رابط القناة او المجموعة الخاصة بعدها ارسال رابط المنشور الخاص**"
 
-        reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("المطور", url="https://t.me/F_P_l")]])
+        reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("المطور", url="https://t.me/i77lx")]])
     else:
              print(language_code)
              welcome_message = f"**👋 Hello {message.from_user.mention},\nI'm a bot that saves posts from restricted channels. Send me the post link 📎\n\nIf the channel or group is private, then you have to send her link, then send the Publishing Link**"
 
-             reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/F_P_l")]])
+             reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/i77lx")]])
 
     bot.send_message(
         message.chat.id,
